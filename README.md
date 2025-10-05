@@ -1,18 +1,19 @@
-# ⚖️ LawGlance – RAG LLM Legal Assistant
+<h1 align="center">⚖️ LawGlance – RAG LLM Legal Assistant</h1>
 
-LawGlance is a Retrieval-Augmented Generation (RAG)-based AI Legal Assistant designed to help common people easily understand basic Indian laws — including Consumer Protection, Motor Vehicles, IT Act, and Labor Rights.
+<p align="center">
+  <em>An AI-powered legal assistant built with Retrieval-Augmented Generation (RAG) and Large Language Models to simplify Indian law understanding for everyone.</em><br><br>
+  <img src="https://img.shields.io/badge/Built_with-Streamlit-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Powered_by-Groq%20%7C%20OpenAI-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Embeddings-SentenceTransformers-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/Vector_DB-FAISS-lightgrey?style=flat-square" />
+</p>
 
-Built as a free, open-source MVP, it combines:
+---
+## 🧭 Overview
 
-- Local vector search using FAISS
+**LawGlance** is a Retrieval-Augmented Generation (RAG)-based **AI Legal Assistant** designed to help common people easily understand basic **Indian laws** — including Consumer Protection, Cyber Law, Motor Vehicle Act, IT Act, and Fundamental Rights.
 
-- Semantic embeddings with HuggingFace Sentence Transformers
-
-- Optional Groq/OpenAI LLM for legal Q&A generation
-
-- Interactive Streamlit-based chat interface
-
-- This project aims to simplify access to legal knowledge for the general public.
+This intelligent chatbot retrieves relevant sections from verified legal texts and generates **structured, point-wise explanations** using LLMs such as **Groq**, **OpenAI**, or **Hugging Face models** — presented through a sleek, gold-accented Streamlit interface.
 
 ---
 
@@ -39,7 +40,10 @@ Fetches the most relevant sections from Indian legal documents using FAISS befor
 Works with:
 - 🧠 **Groq** (`llama-3.3-70b`)
 - 💬 **OpenAI** (`gpt-4o-mini`)
-- ⚙️ **HuggingFace** (`flan-t5-base`)  
+- ⚙️ **HuggingFace** (`flan-t5-base`)
+
+✅ **Elegant Streamlit UI:**  
+Dark theme, glowing gold ⚖️ icon, and responsive layout.
 
 ✅ **Modern Streamlit UI:**  
 Sleek dark theme with glowing gold accents and a floating law icon.  
@@ -130,6 +134,8 @@ The app will open at http://localhost:8501
 
 ## 💬 Example Questions
 
+🧾 Try these sample queries during your demo:
+
 - What are Fundamental Rights?
 
 - How to file an FIR?
@@ -150,19 +156,15 @@ The app will open at http://localhost:8501
 
 ## 🧾 Example Output Format
 
-Title: Steps to File an FIR
-
-Summary: To file an FIR, visit the nearest police station or file it online.
+Title: Steps to File an FIR  
+Summary: To file an FIR, visit the nearest police station or file online.  
 
 Key Points:
-
-- Visit the nearest police station or online FIR portal.
-
+- Visit the nearest police station or online portal.
 - Provide a detailed statement of the incident.
-
-- The officer records your statement and prepares the FIR.
-
-- Verify, sign, and collect a copy for your records.
+- The officer records and prepares the FIR.
+- Sign and collect your free copy.
+- If refused, file a private complaint before a Magistrate (Sec. 156(3) CrPC).
 
 ---
 
@@ -182,8 +184,8 @@ Key Points:
 
 ## ⚠️ Disclaimer
 
-This project provides general legal information for educational and awareness purposes only.
-It does not constitute professional legal advice or replace consultation with a qualified lawyer.
+This AI assistant provides general legal information for awareness purposes only.
+It does not replace professional legal consultation or certified legal advice.
 
 ---
 
@@ -191,3 +193,7 @@ It does not constitute professional legal advice or replace consultation with a 
 
 This project is licensed under the Apache 2.0 License.
 You are free to use, modify, and distribute this code with proper attribution.
+
+---
+
+<p align="center">⚖️ *Empowering citizens through accessible legal knowledge.*</p> 
