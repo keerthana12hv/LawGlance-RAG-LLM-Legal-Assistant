@@ -20,6 +20,12 @@ The application is hosted on **Streamlit Cloud** and can be accessed here:
 
 🎬 Watch the demo video here: 🔗 [LawGlance Demo (Google Drive)](https://drive.google.com/file/d/1vUuFyrsY0plT6H7qWBEIT60qLRIqScLw/view?usp=drive_link)
 
+## 📸 Screenshots
+
+![LawGlance Home](screenshots/Main%20UI.png)
+
+![LawGlance Chat](screenshots/Chat.png)
+
 ---
 
 ## 🚀 Features
@@ -143,7 +149,6 @@ The app will open at `http://localhost:8501`
 5. If refused, file a private complaint before a Magistrate (Sec. 156(3) CrPC).
 
 ---
-
 
 ## 🧱 Built With
 
