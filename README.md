@@ -8,7 +8,7 @@ An AI-powered legal assistant built with Retrieval-Augmented Generation (RAG) an
 
 LawGlance is a Retrieval-Augmented Generation (RAG)-based AI Legal Assistant designed to help common people easily understand basic Indian laws — including Consumer Protection, Cyber Law, Motor Vehicle Act, IT Act, and Fundamental Rights.
 
-This intelligent chatbot retrieves relevant sections from verified legal texts and generates structured, point-wise explanations using **Groq (llama-3.3-70b)** — presented through a sleek, gold-accented Streamlit interface.
+This intelligent chatbot retrieves relevant sections from verified legal texts and generates structured, point-wise explanations using **Groq (GPT OSS 120B)** — presented through a sleek, gold-accented Streamlit interface.
 
 ---
 ## 🌐 Live Demo
@@ -38,7 +38,7 @@ The application is hosted on **Streamlit Cloud** and can be accessed here:
 
 ✅ **RAG-based Context Retrieval:** Fetches the most relevant sections from Indian legal documents using FAISS before generating an answer.
 
-✅ **Groq-Powered Backend:** Uses 🧠 Groq (`llama-3.3-70b`) for fast, accurate responses.
+✅ **Groq-Powered Backend:** Uses 🧠 Groq (`GPT OSS 120B`) for fast, accurate responses.
 
 ✅ **Modern Streamlit UI:** Sleek dark theme with glowing gold accents and a floating law icon.
 
@@ -59,7 +59,7 @@ The application is hosted on **Streamlit Cloud** and can be accessed here:
 | Frontend / UI | Streamlit |
 | Embeddings | Sentence Transformers (`all-MiniLM-L6-v2`) |
 | Vector Store | FAISS |
-| Model Backend | Groq (`llama-3.3-70b`) |
+| Model Backend | Groq (`GPT OSS 120B`) |
 | Environment Variables | `.env` (for API keys) |
 | Styling | Custom CSS (Dark theme + Animated gold law icon) |
 | Hosting (Optional) | Ngrok / Render / Hugging Face Spaces |
